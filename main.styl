@@ -1,0 +1,110 @@
+
+$bg = #282f3a
+$fg = #9AA2B3
+
+$bg-light = #2f3544
+$bg-dark = #171c24
+
+$fg-light = #a7afc3
+$fg-dark = #636a75
+
+body
+  font 17px/1.7 "proxima-nova"
+  background $bg
+  color $fg
+  margin 0
+
+header
+  background #2f3544
+  padding 20px
+
+  h1
+    text-transform uppercase
+    font 300 48px "lato"
+    margin 10px
+
+    .highlight
+      color $fg-dark
+
+  nav
+    float right
+    font-size 20px
+
+    a
+      text-decoration none
+      color $fg-light
+      padding-bottom 5px
+
+    a.active
+      color white
+      border-bottom 2px solid white
+
+    ul
+      list-style none
+
+    li
+      display inline-block
+      margin-right 30px
+      letter-spacing 0.5
+
+article
+  h2
+    border-bottom 1px solid #3d4758
+    padding-bottom 5px
+    color $fg-light
+
+  h1
+    color white
+
+  h1, h2, h3, h4
+    font-family "museo"
+    line-height 1.7
+    letter-spacing 1.2
+    font-weight 400
+
+  .meta
+    background #1e242e
+    padding 20px
+
+    ul
+      list-style none
+      text-align center
+      margin 0
+
+      i
+        font-size 20px
+        vertical-align top
+        margin-right 5px
+
+      li
+        text-transform uppercase
+        font 300 14px "lato"
+        display inline-block
+        letter-spacing 0.5
+        margin-right 30px
+
+  .head
+    background $bg-dark
+    padding 70px 0
+
+    .title, .lede
+      margin auto
+      max-width 900px
+
+    .title
+      font-size 32px
+
+    .lede
+      font italic 22px/1.7 "museo"
+
+  .body
+    max-width 700px
+    padding-top 25px
+    margin auto
+    
+    p
+      text-align justify
+
+    a
+      text-decoration none
+      color #d0daf3
