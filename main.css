@@ -1,0 +1,104 @@
+body {
+  font: 17px/1.7 "proxima-nova";
+  background: #282f3a;
+  color: #9aa2b3;
+  margin: 0;
+}
+header {
+  background: #2f3544;
+  padding: 20px;
+}
+header h1 {
+  text-transform: uppercase;
+  font: 300 48px "lato";
+  margin: 10px;
+}
+header h1 .highlight {
+  color: #636a75;
+}
+header nav {
+  float: right;
+  font-size: 20px;
+}
+header nav a {
+  text-decoration: none;
+  color: #a7afc3;
+  padding-bottom: 5px;
+}
+header nav a.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+header nav ul {
+  list-style: none;
+}
+header nav li {
+  display: inline-block;
+  margin-right: 30px;
+  letter-spacing: 0.5;
+}
+article h2 {
+  border-bottom: 1px solid #3d4758;
+  padding-bottom: 5px;
+  color: #a7afc3;
+}
+article h1 {
+  color: #fff;
+}
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-family: "museo";
+  line-height: 1.7;
+  letter-spacing: 1.2;
+  font-weight: 400;
+}
+article .meta {
+  background: #1e242e;
+  padding: 20px;
+}
+article .meta ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+article .meta ul i {
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+article .meta ul li {
+  text-transform: uppercase;
+  font: 300 14px "lato";
+  display: inline-block;
+  letter-spacing: 0.5;
+  margin-right: 30px;
+}
+article .head {
+  background: #171c24;
+  padding: 70px 0;
+}
+article .head .title,
+article .head .lede {
+  margin: auto;
+  max-width: 900px;
+}
+article .head .title {
+  font-size: 32px;
+}
+article .head .lede {
+  font: italic 22px/1.7 "museo";
+}
+article .body {
+  max-width: 700px;
+  padding-top: 25px;
+  margin: auto;
+}
+article .body p {
+  text-align: justify;
+}
+article .body a {
+  text-decoration: none;
+  color: #d0daf3;
+}
